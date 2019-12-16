@@ -25,6 +25,9 @@
     "start": "node server.js",
     "start:watch": "nodemon server.js"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/licarpen/travel.git"
