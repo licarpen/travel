@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1576543856161" clover="3.2.0">
-  <project timestamp="1576543856161" name="All files">
-    <metrics statements="76" coveredstatements="64" conditionals="7" coveredconditionals="1" methods="24" coveredmethods="21" elements="107" coveredelements="86" complexity="0" loc="76" ncloc="76" packages="6" files="10" classes="10"/>
+<coverage generated="1576548557891" clover="3.2.0">
+  <project timestamp="1576548557892" name="All files">
+    <metrics statements="87" coveredstatements="70" conditionals="7" coveredconditionals="1" methods="31" coveredmethods="23" elements="125" coveredelements="94" complexity="0" loc="87" ncloc="87" packages="6" files="11" classes="11"/>
     <package name="lib">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.js" path="/Users/home/alchemy/career/travel/lib/app.js">
@@ -49,12 +49,16 @@
       </file>
     </package>
     <package name="lib.models">
-      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="ItineraryItem.js" path="/Users/home/alchemy/career/travel/lib/models/ItineraryItem.js">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="28" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
       </file>
       <file name="Trip.js" path="/Users/home/alchemy/career/travel/lib/models/Trip.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -65,7 +69,7 @@
       </file>
     </package>
     <package name="lib.routes">
-      <metrics statements="23" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14"/>
+      <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="16"/>
       <file name="itineraryItems.js" path="/Users/home/alchemy/career/travel/lib/routes/itineraryItems.js">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="2" type="stmt"/>
@@ -79,7 +83,7 @@
         <line num="18" count="1" type="stmt"/>
       </file>
       <file name="trips.js" path="/Users/home/alchemy/career/travel/lib/routes/trips.js">
-        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="12"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
@@ -89,15 +93,25 @@
         <line num="13" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
       </file>
     </package>
     <package name="lib.services">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="12" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <file name="getWeather.js" path="/Users/home/alchemy/career/travel/lib/services/getWeather.js">
+        <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
       <file name="getWoeid.js" path="/Users/home/alchemy/career/travel/lib/services/getWoeid.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="2" type="stmt"/>

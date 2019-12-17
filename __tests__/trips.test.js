@@ -77,7 +77,6 @@ describe('app routes', () => {
           name: 'Ton Sai, Thailand',
           lat: 15.8700,
           long: 100.9925,
-          id: expect.any(String),
           itineraryItems: []
         });
       });
